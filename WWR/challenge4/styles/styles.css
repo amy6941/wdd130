@@ -17,10 +17,10 @@ body {
 }
 
 img {
-    width: 50%;
-    height: 30%;
-    text-align: center;
-}
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
 ol{
     text-align: left;
     color: #000;
