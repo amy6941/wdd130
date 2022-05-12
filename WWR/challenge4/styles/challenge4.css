@@ -1,5 +1,5 @@
 body {
-    background-color: #fca6c9;
+    background-color: solid rgb(255, 160, 176);
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -19,7 +19,7 @@ img {
 }
 ol{
     text-align: left;
-    color: #000;
+    color: black;
     font-weight: bolder;
     width: 40%;
     margin: 0 auto;
@@ -27,7 +27,7 @@ ol{
     padding-bottom: 2em;
 }
 .bigWhite {
-    color: #fff;
+    color: white;
     font-weight: 100;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 30%;
