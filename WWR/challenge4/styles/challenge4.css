@@ -5,11 +5,16 @@ body {
     text-align: center;
     border: solid green 2px;
 }
-.center p {
-    font-size: small;
-    width: 70%;
-    margin: 0 auto;
-    padding-bottom: 1em;
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida 
+Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heading:hover {
+    color: white;
+}
+.heading:hover{color: black;
 }
 
 img {
