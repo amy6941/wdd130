@@ -1,9 +1,8 @@
 body {
-    background-color: solid rgb(255, 160, 176);
+    background-color: rgb(255, 160, 176);
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    border: solid green 2px;
 }
 h1 {
     text-align: center;
@@ -18,7 +17,7 @@ Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 img {
-    width: 10%;
+    width: 30%;
     display: block;
     margin: 0 auto;
 }
@@ -28,7 +27,6 @@ ol{
     font-weight: bolder;
     width: 40%;
     margin: 0 auto;
-    border: solid 2px;
     padding-bottom: 2em;
 }
 .bigWhite {
