@@ -1,14 +1,20 @@
-main {
-    display: block;
-    color:  rgb(62, 62, 62);
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;  
-    font-size: 18px;
-    height: 939.125px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    position: relative;
-    width: 810px;
+#top {
+    width: 70%;
 }
-
+div {
+    background-color: #737373;
+    box-sizing: border-box;
+    margin-top: -5px;
+    height: 400px;
+    width: 1280px;
+}
+div img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+p {
+    text-align: center;
+}
