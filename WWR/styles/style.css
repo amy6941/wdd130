@@ -11,7 +11,7 @@ header {
 }
 nav a {
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 nav a:hover {
@@ -30,7 +30,7 @@ h4 {
 main {
     text-align: center;
 }
-background {
+#background {
     height: 725px;
     background-color: rgba(0, 128, 0, 0.447);
 }
