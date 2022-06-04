@@ -84,7 +84,7 @@ main {
     grid-column: 1/11;
 }
 .book, .join {
-    background-color: rgb(111, 116, 96, .7);
+    background-color: #6f7460;
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -100,7 +100,7 @@ main section {
     text-align: center;
 }
 .msg {
-    background-color: #6f7364;
+    background-color: rgb(111, 115, 100, .7);
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -123,10 +123,11 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-decoration: none;
 }
 footer h3 {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer a {
     color: black;
@@ -134,7 +135,7 @@ footer a {
 }
 footer a:hover {
     color: #fcfbfb;
-    text-decoration: underline;
+    text-decoration: none;
 }
 footer .social img {
     padding-top: 15px;
