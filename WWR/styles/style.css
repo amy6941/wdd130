@@ -195,6 +195,11 @@ footer .social img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+.card1-img {
+    border: 10px solid #d9c2a3;
+    width: 40%;
+}
+
 main section img {
     box-sizing: border-box;
 }
