@@ -37,8 +37,8 @@ footer {
     align-self: center;
 }
 main {
-    display: grid;
-    grid-template-columns: repeat(10, 1em);
+    display: inline;
+
 }
 #open-hours {
     text-align: left; 
@@ -61,10 +61,15 @@ img {
     max-height: 250px;
 }
 #book-header {
-    grid-column: auto;
     box-sizing: border-box;
     display: inline-block;    
 }
+#book-info {
+    box-sizing: border-box;
+    display: inline; 
+    margin-left: 20em;
+}
+
 main h1 {
     text-align: center;
     margin: 0;
