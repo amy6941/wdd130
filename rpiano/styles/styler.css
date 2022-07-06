@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+header {
+    background-color:black;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin: 1em;
+}
+footer {
+    background-color:black;
+    display: grid;
+    grid-template-columns: 150px auto;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.logo {
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(10, 1em);
+}
+#open-hours {
+    text-align: left; 
+    margin: 0;
+    width: 800px;
+    border: 2em;
+}
+input {
+    display: table;
+    font-size: .75em;
+}
+#book-info {
+    grid-column: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+img {
+    grid-column: 5/7;
+    max-width: 250px;
+    max-height: 250px;
+}
+#book-header {
+    grid-column: auto;
+    box-sizing: border-box;
+    display: inline-block;    
+}
+main h1 {
+    text-align: center;
+    margin: 0;
+    width: 800px;
+    border: 2em;
+    padding: 8px;
+}
+#address {
+    text-align: center;
+    margin: 0;
+    width: 800px;
+    border: 2em;
+    padding: 8px;
+}
+.address-title {
+    text-align: center;
+    margin: 1px;
+    width: 800px;
+    border: 2em;
+    padding: 8px;
+}
