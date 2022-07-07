@@ -25,8 +25,6 @@ footer {
     display: grid;
     grid-template-columns: 150px auto;
     margin-top: 2em;
-    margin-left: 1em;
-    margin-right: 1em;
 }
 .logo {
     width: 80px;
@@ -38,28 +36,26 @@ footer {
 }
 body {
     display: grid;
-    grid-template-columns: repeat(3, 1em);
+    grid-template-columns: repeat(6, 1em);
+    grid-template-rows: auto;
 }
-h2 {
-    
+section {
+    width: 50%;
 }
-#open-hours {
-    grid-column: 1/2; 
-    width: 800px;
+.open-hours {
+    margin: right;
     border: 2em;
 }
 .map {
-    grid-row: 1;
-    grid-column: 2;
+   margin-left: auto;
+   grid-row: 1;
 }
 input {
-    display: table;
-    font-size: .75em;
-}
-#form {
-    grid-column: 3/4;
-    box-sizing: border-box;
-    font-size: 16px;
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
 }
 img {
     grid-column: 2;
@@ -67,24 +63,16 @@ img {
     max-height: 250px;
 }
 .book-header {
-    box-sizing: border-box;   
-}
-.book-info {
-    grid-column:3;
-    box-sizing: border-box;
-    margin-left: auto;
+    margin-left: 0;
+    text-align: center;
 }
 main h1 {
-    text-align: center;
-    margin: 0;
-    width: 800px;
-    border: 2em;
-    padding: 8px;
+    margin: auto;
 }
 .address {
-    text-align: center;
-    margin: 1px;
-    width: 800px;
-    border: 2em;
-    padding: 8px;
+    margin: auto;
 }
+.button {
+    text-align: center;
+}
+  

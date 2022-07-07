@@ -238,7 +238,7 @@ main section img {
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 400px;
+    width: 200px;
     /* Form outline */
     padding: 1em;
     border: 1px solid #CCC;
