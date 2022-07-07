@@ -36,40 +36,44 @@ footer {
     justify-self: center;
     align-self: center;
 }
-main {
-    display: inline;
-
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1em);
+}
+h2 {
+    
 }
 #open-hours {
-    text-align: left; 
-    margin: 0;
+    grid-column: 1/2; 
     width: 800px;
     border: 2em;
+}
+.map {
+    grid-row: 1;
+    grid-column: 2;
 }
 input {
     display: table;
     font-size: .75em;
 }
-#book-info {
-    grid-column: auto;
+#form {
+    grid-column: 3/4;
     box-sizing: border-box;
-    display: inline-block;
+    font-size: 16px;
 }
 img {
-    grid-column: 5/7;
+    grid-column: 2;
     max-width: 250px;
     max-height: 250px;
 }
-#book-header {
-    box-sizing: border-box;
-    display: inline-block;    
+.book-header {
+    box-sizing: border-box;   
 }
-#book-info {
+.book-info {
+    grid-column:3;
     box-sizing: border-box;
-    display: inline; 
-    margin-left: 20em;
+    margin-left: auto;
 }
-
 main h1 {
     text-align: center;
     margin: 0;
@@ -77,14 +81,7 @@ main h1 {
     border: 2em;
     padding: 8px;
 }
-#address {
-    text-align: center;
-    margin: 0;
-    width: 800px;
-    border: 2em;
-    padding: 8px;
-}
-.address-title {
+.address {
     text-align: center;
     margin: 1px;
     width: 800px;
