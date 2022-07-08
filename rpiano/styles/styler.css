@@ -64,7 +64,7 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px auto;
     display: block;
-    border: 1px solid #1c2541;
+    border: 1px solid #2B3964;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -72,7 +72,7 @@ input[type=text], select {
   /* Style the submit button */
 input[type=submit] {
     width: 50%;
-    background-color: #0b132b;
+    background-color: #101d41;
     color: white;
     padding: 14px 20px;
     margin: 8px auto;
@@ -84,7 +84,8 @@ input[type=submit] {
   
   /* Add a background color to the submit button on mouse-over */
 input[type=submit]:hover {
-    background-color: #0b132b;
+    background-color: #aebada;
+    color: black;
 }
 h3 {
     text-align: center;
@@ -94,6 +95,7 @@ h1 {
     border-radius: 5px;
     padding: 10px;
     border-bottom: 3px solid #0B132B;
+    margin: 10px;
 }
 p {
     text-align: center;
