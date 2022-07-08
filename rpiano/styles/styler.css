@@ -3,6 +3,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    background-color: #E4E8F1;
 }
 nav {
     display: flex;
@@ -15,13 +16,13 @@ nav a {
     padding: 35px;
 }
 header {
-    background-color:black;
+    background-color:#0B132B;
     display: grid;
     grid-template-columns: 150px auto;
     margin-bottom: 1em;
 }
 footer {
-    background-color:black;
+    background-color:#0B132B;
     display: grid;
     grid-template-columns: 150px auto;
     margin-top: 2em;
@@ -34,45 +35,257 @@ footer {
     justify-self: center;
     align-self: center;
 }
-body {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto;
-}
-section {
-    width: 50%;
-}
-.open-hours {
-    margin: right;
-    border: 2em;
-}
-.map {
-   margin-left: auto;
-   grid-row: 1;
-}
-input {
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+.column {
+    float: left;
+    width: 33.33%;
+}  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 img {
-    grid-column: 2;
     max-width: 250px;
     max-height: 250px;
 }
-.book-header {
-    margin-left: 0;
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1c2541;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+  /* Style the submit button */
+input[type=submit] {
+    width: 100%;
+    background-color: #0b132b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+  /* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+    background-color: #0b132b;
+}
+h3, h2 {
     text-align: center;
 }
-main h1 {
-    margin: auto;
+p {
+    text-align: center;
 }
-.address {
-    margin: auto;
+* {
+    box-sizing: border-box;
 }
-.button {
+.schedule, .pricing, .reviews, .profiles {
+    text-align: center;
+    font-size: 25px;
+}
+  /* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.33%;
+    padding: 8px;
+}
+  
+  /* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #F2F4F8;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+  
+  /* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 #F2F4F8;
+}
+  
+  /* Pricing header */
+.price .header {
+    background-color: #0b132b;
+    color: white;
+    font-size: 25px;
+}
+  
+  /* List items */
+.price li {
+    border-bottom: 1px solid #F2F4F8;
+    padding: 20px;
     text-align: center;
 }
   
+  /* Grey list item */
+.price .grey {
+    background-color: #F2F4F8;
+    font-size: 20px;
+}
+  
+  /* The "Sign Up" button */
+.button {
+    background-color: #0b132b;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 2px solid #ccc;
+    background-color: #F2F4F8;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+}
+  
+  /* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+  
+  /* Increase the font-size of a span element */
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+ul {list-style-type: none;}
+body {font-family: 'Raleway', sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #0B132B;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#F2F4F8;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #080E20;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #F2F4F8;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #080E20;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #0b132b;
+  color: white !important
+}
+
+body, html {
+    height: 100%
+}
+  
+.bgimg {
+    /* Background image */
+    background-image: url();
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: #0b132b;
+    /* Add a font */
+    font-family: 'Raleway', sans-serif;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+}
+  
+  /* Position text in the middle */
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+  /* Style the <hr> element */
+hr {
+    margin: auto;
+    width: 40%;
+} 
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }

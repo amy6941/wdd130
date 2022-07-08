@@ -21,43 +21,41 @@
             </nav>
         </header>
         <main>
-            <div class="hours-title">
-                <h2> HOURS </h2>
-            <div>
-            <section class="open-hours">
-                <p> MONDAY: 3 PM - 9 PM  </p>
-                <p> TUESDAY: 3 PM - 9 PM </p>
-                <p> WEDNESDAY: 3 PM - 9 PM </li>
-                <p> THURSDAY: 3 PM - 9 PM </p>
-                <p> FRIDAY: 3 PM - 9 PM </p>
-                <p> SATURDAY: 9:30 AM - 5:30 PM </p>
-                <p> SUNDAY: CLOSED </p>
-                </section>
-
-            <section class="map">
-                <img src="images/maptoschool.jpg" alt="map to school">
-                <div class="address">
-                    <h2>Ramsey Piano Music School</h2>
-                    <p>30578 Kingsland Blvd</p>
-                    <p>Brookshire, TX 77423</p>
-                    <p>(949)322-6890</p>
+            <div class="row">
+                <div class="column"><h2> OPEN HOURS </h2>
+                    <p> MONDAY: 3 PM - 9 PM  </p>
+                    <p> TUESDAY: 3 PM - 9 PM </p>
+                    <p> WEDNESDAY: 3 PM - 9 PM </li>
+                    <p> THURSDAY: 3 PM - 9 PM </p>
+                    <p> FRIDAY: 3 PM - 9 PM </p>
+                    <p> SATURDAY: 9:30 AM - 5:30 PM </p>
+                    <p> SUNDAY: CLOSED </p></div>
+                <div class="column"><img src="images/maptoschool.jpg" alt="map to school">
+                    <h1>Ramsey Music School</h1>
+                    <h4>30578 Kingsland Blvd</h4>
+                    <h4>Brookshire, TX 77423</h4>
+                    <h4>(949)322-6890</h4></div>
+                <div class="column"><h3 class="book-title">Schedule a Free Trial</h3>
+                    <form action="/action_page.php">
+                        <label for="fname">Student Name</label>
+                        <input type="text" id="fname" name="studentname" placeholder="Student name">
+                      
+                        <label for="lname">Student Age</label>
+                        <input type="text" id="lname" name="studentage" placeholder="Student Age">
+                      
+                        <label for="lname">Your Name</label>
+                        <input type="text" id="yname" name="yourname" placeholder="Your name">
+        
+                        <label for="email">email</label>
+                        <input type="text" id="email" name="email" placeholder="email">
+        
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" name="phone" placeholder="phone">
+                      
+                        <input type="submit" value="Submit">
+                    </form>
                 </div>
-            </section>
-          
-            <section class="book-header">
-                <h2 class="book-title">Schedule a Free Trial</h2>
-            </section>
-            <section class="book-info"></section>
-            <form action="/my-handling-form-page" method="post">
-                <input type="text" placeholder="Student Name">
-                <input type="text" placeholder="Student Age">
-                <input type="text" placeholder="Your Name">
-                <input type="text" placeholder="email">
-                <input type="text" placeholder="phone">      
-                <p class="button">
-                    <button type="submit"> Send </button>
-                </p>
-            </form>
+            </div>
         </main>
         <footer>
             <a id="logo_link" href="index.html">
