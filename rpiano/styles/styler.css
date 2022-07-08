@@ -342,19 +342,18 @@ hr {
     .column {
       width: 100%;
     }
-}
-@media (max-width: 500px) {
+
     .container {
-      text-align: center;
+        text-align: center;
     }
-}
-nav, footer {
-    flex-direction: column;
-}
-nav a {
-    display: block;
-    padding: 15px;
-}
-footer {
-    margin-top: 25px;
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
 }
