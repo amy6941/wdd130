@@ -46,7 +46,8 @@ footer a:hover {
     text-decoration: none;
 }
 footer .social img {
-    padding-top: 15px;
+    padding-top: 10px;
+    
 }
 .icon {
     width: 80px;
@@ -344,21 +345,31 @@ hr {
 } 
 
 @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-
-    .container {
-        text-align: center;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    footer {
-        margin-top: 25px;
-    }
+  .price .header {
+    width: 100%;
+    font-size: 15px;
+  }
+  .price li {
+    font-size: xx-small;
+  }
+  .button {
+    width: 30%;
+    font-size: x-small;
+  }
+  .column {
+    width: 100%;
+  }
+  .container {
+      text-align: center;
+  }
+  nav, footer {
+      flex-direction: column;
+  }
+  nav a {
+      display: block;
+      padding: 15px;
+  }
+  footer {
+      margin-top: 25px;
+  }
 }
