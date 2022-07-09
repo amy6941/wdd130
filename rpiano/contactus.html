@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styler.css">
+    <link rel="stylesheet" href="styles/contactus.css">
     <title>Ramsey Piano Music School Home</title>
 </head>
 <body>
+    <div id="content"> 
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/ramseypiano1.png" alt="Ramsey Piano Music School">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="schedule.html">Scheduling and Pricing</a>
+                <a href="profiles.html">Profiles and Reviews</a>
+            </nav>
+        </header>
+    </div>
     <div id="feedback"></div>
     <main>
         <form action="/my-handling-form-page" method="post">
@@ -32,7 +44,7 @@
     </main> 
     <footer>
         <a id="logo_link" href="index.html">
-            <img class="logo" src="images/ramsey piano 1.png" alt="Ramsey Piano Music School">
+            <img class="logo" src="images//ramseypiano1.png" alt="Ramsey Piano Music School">
         </a>
         <h3> Ramsey Music School </h3>
             <h3><a href="contactus.html">Contact Us</a></h3>
@@ -48,6 +60,23 @@
                 </a>
             </div>
     </footer>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
 </body>
 
 
