@@ -49,6 +49,9 @@ footer .social img {
     padding-top: 10px;
     
 }
+.social img {
+  width: 25px;
+}
 .icon {
     width: 80px;
     padding-top: 10px;
@@ -353,8 +356,7 @@ hr {
     font-size: xx-small;
   }
   .button {
-    width: 30%;
-    font-size: x-small;
+    font-size: 15px;
   }
   .column {
     width: 100%;

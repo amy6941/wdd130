@@ -132,3 +132,32 @@ header {
     grid-template-columns: 150px auto;
     margin-bottom: 1em;
 }
+
+@media screen and (max-width: 600px) {
+    .price .header {
+        width: 100%;
+        font-size: 15px;
+    }
+    .price li {
+        font-size: xx-small;
+    }
+    .button {
+        font-size: 15px;
+    }
+    .column {
+        width: 100%;
+    }
+    .container {
+        text-align: center;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
