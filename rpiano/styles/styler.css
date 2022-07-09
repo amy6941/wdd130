@@ -4,6 +4,8 @@
     max-width: 1600px;
     margin: 0 auto;
     background-color: #E4E8F1;
+    font-family: 'Raleway' sans-serif;
+    color: #101d41;
 }
 nav {
     display: flex;
