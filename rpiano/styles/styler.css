@@ -1,226 +1,226 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap');
 
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
-    background-color: #E4E8F1;
-    font-family: 'Raleway', sans-serif;
-    color: #101d41;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #E4E8F1;
+  font-family: 'Raleway', sans-serif;
+  color: #101d41;
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 nav a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    padding: 35px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 35px;
 }
 header {
-    background-color:#0B132B;
-    display: grid;
-    grid-template-columns: 150px auto;
-    margin-bottom: 1em;
+  background-color:#0B132B;
+  display: grid;
+  grid-template-columns: 150px auto;
+  margin-bottom: 1em;
 }
 footer {
-    background-color:#0B132B;
-    color: white;
-    padding: 5px 15px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
+  background-color:#0B132B;
+  color: white;
+  padding: 5px 15px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
 }
 footer h5 {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 footer a {
-    color: white;
-    text-decoration:none
+  color: white;
+  text-decoration:none
 }
 footer a:hover {
-    color: #fcfbfb;
-    text-decoration: none;
+  color: #fcfbfb;
+  text-decoration: none;
 }
 footer .social img {
-    padding-top: 10px;
+  padding-top: 10px;
     
 }
 .social img {
   width: 25px;
 }
 .icon {
-    width: 80px;
-    padding-top: 10px;
+  width: 80px;
+  padding-top: 10px;
 }
 .logo {
-    width: 80px;
+  width: 80px;
 }
 .logo {
-    width: 80px;
+  width: 80px;
 }
 #logo_link {
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
 }
 .column {
-    float: left;
-    width: 33.33%;
+  float: left;
+  width: 33.33%;
 }  
   /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 .profiles {
-    max-width: 300px;
-    max-height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .map {
-    border: 8px solid white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  border: 8px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 .address {
-    text-align: center;
+  text-align: center;
 }
 input[type=text], select {
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px auto;
-    display: block;
-    border: 1px solid #2B3964;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  display: block;
+  border: 1px solid #2B3964;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
   /* Style the submit button */
 input[type=submit] {
-    width: 50%;
-    background-color: #101d41;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px auto;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    display: block;
+  width: 50%;
+  background-color: #101d41;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
 }
   
   /* Add a background color to the submit button on mouse-over */
 input[type=submit]:hover {
-    background-color: #aebada;
-    color: black;
+  background-color: #aebada;
+  color: black;
 }
 h3 {
-    text-align: center;
+  text-align: center;
 }
 h1 {
-    border-top: 3px solid #0B132B;
-    border-radius: 5px;
-    padding: 10px;
-    border-bottom: 3px solid #0B132B;
-    margin: 10px;
+  border-top: 3px solid #0B132B;
+  border-radius: 5px;
+  padding: 10px;
+  border-bottom: 3px solid #0B132B;
+  margin: 10px;
 }
 p {
-    text-align: center;
+  text-align: center;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .schedule, .pricing, .reviews, .profiles {
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 25px;
 }
   /* Create three columns of equal width */
 .columns {
-    float: left;
-    width: 33.33%;
-    padding: 8px;
+  float: left;
+  width: 33.33%;
+  padding: 8px;
 }
   
   /* Style the list */
 .price {
-    list-style-type: none;
-    border: 1px solid #F2F4F8;
-    margin: 0;
-    padding: 0;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
+  list-style-type: none;
+  border: 1px solid #F2F4F8;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
   
   /* Add shadows on hover */
 .price:hover {
-    box-shadow: 0 8px 12px 0 #F2F4F8;
+  box-shadow: 0 8px 12px 0 #F2F4F8;
 }
   
   /* Pricing header */
 .price .header {
-    background-color: #0b132b;
-    color: white;
-    font-size: 25px;
+  background-color: #0b132b;
+  color: white;
+  font-size: 25px;
 }
   
   /* List items */
 .price li {
-    border-bottom: 1px solid #F2F4F8;
-    padding: 20px;
-    text-align: center;
+  border-bottom: 1px solid #F2F4F8;
+  padding: 20px;
+  text-align: center;
 }
   
   /* Grey list item */
 .price .grey {
-    background-color: #F2F4F8;
-    font-size: 20px;
+  background-color: #F2F4F8;
+  font-size: 20px;
 }
   
   /* The "Sign Up" button */
 .button {
-    background-color: #0b132b;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
+  background-color: #0b132b;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
 }
 /* Style the container with a rounded border, grey background and some padding and margin */
 .container {
-    border: 2px solid #ccc;
-    background-color: #F2F4F8;
-    border-radius: 5px;
-    padding: 16px;
-    margin: 16px 0;
+  border: 2px solid #ccc;
+  background-color: #F2F4F8;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
 }
   
   /* Clear floats after containers */
 .container::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
   
   /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
 .container img {
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
   
   /* Increase the font-size of a span element */
 .container span {
-    font-size: 20px;
-    margin-right: 15px;
+  font-size: 20px;
+  margin-right: 15px;
 }
 ul {list-style-type: none;}
 body {font-family: 'Raleway', sans-serif;}
@@ -297,54 +297,54 @@ body {font-family: 'Raleway', sans-serif;}
 }
 
 body, html {
-    height: 100%
+  height: 100%
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 1em;
 }
   /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }  
 .bgimg {
-    /* Background image */
-    background-image: url();
-    /* Full-screen */
-    height: 100%;
-    /* Center the background image */
-    background-position: center;
-    /* Scale and zoom in the image */
-    background-size: cover;
-    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-    position: relative;
-    /* Add a white text color to all elements inside the .bgimg container */
-    color: #0b132b;
-    /* Add a font */
-    font-family: 'Raleway', sans-serif;
-    /* Set the font-size to 25 pixels */
-    font-size: 25px;
+  /* Background image */
+  background-image: url();
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: #0b132b;
+  /* Add a font */
+  font-family: 'Raleway', sans-serif;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
 }
   
   /* Position text in the middle */
 .middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
   
   /* Style the <hr> element */
 hr {
-    margin: auto;
-    width: 40%;
+  margin: auto;
+  width: 40%;
 } 
 
 @media screen and (max-width: 350px) {
@@ -354,28 +354,27 @@ hr {
   }
   .price li {
     font-size: 5px;
-    white-space: wrap;
   }
   .button {
     font-size: 10px;
     white-space: nowrap;
     padding: 5px
-    }
+  }
   .column {
     width: 100%;
   }
   .container {
-      text-align: center;
+    text-align: center;
   }
   nav, footer {
-      flex-direction: column;
+    flex-direction: column;
   }
   nav a {
-      display: block;
-      padding: 15px;
+    display: block;
+    padding: 15px;
   }
   footer {
-      margin-top: 25px;
+    margin-top: 25px;
   }
   .center {
     display: block;
