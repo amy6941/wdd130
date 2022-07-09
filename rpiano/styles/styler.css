@@ -31,7 +31,7 @@ footer {
     align-items: center;
     text-decoration: none;
 }
-footer h3 {
+footer h5 {
     color: white;
     text-decoration: none;
 }
@@ -71,10 +71,10 @@ footer .social img {
     display: table;
     clear: both;
 }
-img {
+/*img {
     max-width: 300px;
     max-height: 300px;
-}
+}*/
 .map {
     border: 8px solid white;
     display: block;
