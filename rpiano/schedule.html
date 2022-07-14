@@ -6,30 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styler.css">
     <title>Ramsey Music Scheduling and Pricing</title>
-    <script type="text/javascript">
-
-        function hiliteToday(){
-        
-            var nDate = new Date();
-            nDate = nDate.getDate();
-            var nTable = document.getElementById('currMonth');
-            nRows = nTable.rows.length;
-            nCells = nTable.rows[0].cells.length;
-            for (i=1; i<nRows; i++)
-                {
-                 for (n=0; n<nCells; n++)
-                    {
-                     var tmp = nTable.rows[i].cells[n].innerHTML;
-                     tmp = tmp.split("<");
-                     if (tmp[0] == nDate){nTable.rows[i].cells[n].style.backgroundColor = 'rgb(11, 19, 43)'}
-                    }
-        
-                }
-        }
-        
-        window.onload=hiliteToday;
-        
-        </script>
 </head>
 <body>
     <div id="content"> 
@@ -161,6 +137,7 @@
             </a>
             <h5> Ramsey Music School </h5>
                 <h3><a href="contactus.html">Contact Us</a></h3>
+                <h3><a href="rpiano/site-plan.html">Site Plan</a></h3>
                 <div class="social">
                     <a href="https://facebook.com" target="_blank">
                         <img src="images/facebook.png" alt="fb icon">
