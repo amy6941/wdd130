@@ -7,6 +7,9 @@
   font-family: 'Raleway', sans-serif;
   color: #101d41;
 }
+main {
+  padding: 0 50px;
+}
 nav {
   display: flex;
   justify-content: space-around;
